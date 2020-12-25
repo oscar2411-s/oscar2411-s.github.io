@@ -1,4 +1,39 @@
-@font-face {font-family: "Circular Std Book"; src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot"); src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff") format("woff"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.svg#Circular Std Book") format("svg"); }
 *{
-    font-family: "Circular Std Book";
+    font-family: "Work Sans";
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
+
+
+body{
+    display: flex;
+    height: 200vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1{
+    display: flex;
+    width: 100%;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.overskrift{
+    font-size: 13vw;
+
+}
+.container2{
+    flex: 1;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.square{
+    height: 20%;
+    width: 200px;
+    flex: 1;
+    background: orange;
+}
+
+
