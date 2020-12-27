@@ -133,6 +133,14 @@ body {
   }
 }
 
+@media only screen and (max-width: 700px) {
+  .first-section h1 {
+    font-size: 65px;
+  }
+  .second-section h2 {
+    font-size: 45px;
+  }
+}
 @keyframes shadowFadeIn {
   0% {
     -webkit-box-shadow: inset 0px 0px 31px -10px rgba(0, 0, 0, 1);
