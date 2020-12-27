@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'apercu_monoregular';
+    src: url('./apercu-mono.woff2') format('woff2'),
+         url('./apercu-mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
